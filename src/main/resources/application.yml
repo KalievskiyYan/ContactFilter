@@ -1,0 +1,16 @@
+spring:
+  application:
+    name:
+  profiles:
+    active: local
+  main:
+    banner-mode: off
+  jackson:
+    default-property-inclusion: non_null
+  logging:
+    level:
+      root: info
+      com.springframework.web: error
+    pattern:
+      console: "%d %-5level %logger : %msg%n"
+      file: "%d %-5level [%thread] %logger : %msg%n"

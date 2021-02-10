@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    password: back-end
+    url: r2dbc:postgresql://localhost:5432/db
+    username: hello
+  logging:
+    level:
+      org.springframework.data.r2dbc: debug
+      com.testtask.filter: debug
