@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/KalievskiyYan/ContactFilter.svg?branch=master)](https://travis-ci.com/KalievskiyYan/ContactFilter)
 # Contact Filter Application
 
 
